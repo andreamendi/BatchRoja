@@ -56,4 +56,4 @@ print(diccionario2)
 
 #Añade los elementos de una diccionario a otro, toma dos o más diccionarios en unos solo
 diccionario.update(dicc)
-print(diccionario)
+print(diccionario)1
