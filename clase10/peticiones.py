@@ -16,6 +16,7 @@ def mi_peticion_post(nombre, apellidos, bio, edad):
     }
     response = requests.post(URL,json = json_send)
     return response
+
 respuesta = mi_peticion_post("PYTHON jr", "UNIX","Es un pythoncito",15)
 print(respuesta.status_code)
 print(respuesta.json())
